@@ -7,7 +7,7 @@
  	$_SESSION['adress'] = $adress;
  	$_SESSION['message'] = 0;
  	$_SESSION['cabinet'] = 0;
- 	$_SESSION['name'] = 0;
+ 	$_SESSION['name'] = NULL;
  	if(mysqli_num_rows($result) > 0){
  		//Переход в личный кабинет.html
  		//	$_COOKIE['auth'] = 1;
