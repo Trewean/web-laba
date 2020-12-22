@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background-color: #fcf5f5;
+}
+
+.line{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.card{
+	background: #cef0f2;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	max-width: 500px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.card img{
+	max-width: 500px;
+	max-height: 300px;
+}
+
+.card p{
+	generic-family: Sans-serif;
+	font-family: Arial;
+}
