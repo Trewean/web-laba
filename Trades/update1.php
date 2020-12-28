@@ -12,7 +12,7 @@
 	$quantity = mysqli_real_escape_string($connect, $quantity);
 	$manufac = mysqli_real_escape_string($connect, $manufac);
 	if(mysqli_num_rows(mysqli_query($connect, "SELECT * FROM `manufac` WHERE `name` = '$manufac' ")) == 0){
-		mysqli_query($connect, "INSERT INTO `trades` (`name`) VALUES ('$manufac') ");
+		mysqli_query($connect, "INSERT INTO `manufac` (`name`) VALUES ('$manufac') ");
 	}
 //	$image = $_POST['image'];
 //	var_dump($name);
